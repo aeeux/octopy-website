@@ -3,7 +3,6 @@
 <template>
   <div class="hello">
     <button class="main__btn">Launch Octopy</button>
-    <button class="main__btn2">Launch Octopy</button>
   </div>
 </template>
 
@@ -52,52 +51,19 @@ export default {
     left: 0;
     width: 0;
     height: 100%;
-    background: #4479ed;
+    background: #4479ed3f;
     transition: all 0.35s;
     border-radius: 4px;
 }
 
 .main__btn:hover {
     color: #fff;
+    background-position: right center;
 }
 
 .main__btn:hover:after {
     width: 100%;
 }
-
-/* Knap2 */
-
-.main__btn2 {background-image: linear-gradient(to right, #FF512F 0%, #F09819  51%, #FF512F  100%)}
-.main__btn2 {
-
-
-   text-align: center;
-   text-transform: uppercase;
-   transition: 0.5s;
-   background-size: 200% auto;
-   color: white;
-   box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.10),
-   0px 5px 20px 0px rgba(0, 0, 0, 0.10);
-   display: block;
-   text-decoration: none;
-   display: inline-block;
-   padding: 0.7375em 0.99em;
-   border-radius: 2em;
-   font-size: 14px;
-   margin: 0.5em 0;
-   padding-bottom: 0.7375em;
-   box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.10),
-   0px 1px 20px 0px rgba(0, 0, 0, 0.10);
-   border: none;
-   cursor: pointer;
- }
-
- .main__btn2:hover {
-   background-position: right center; /* changes the direction of the grad on button */
-   color: #fff;
-   text-decoration: none;
-   box-shadow: 0px 0px #888888;
-   }
 
 /* Styles */
 

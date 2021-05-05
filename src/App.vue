@@ -3,7 +3,7 @@
 
 <template>
   <div id="app">
-    <img id="logo" alt="Vue logo" src="./assets/octopy-logo.png">
+    <Nav />
     <HelloWorld msg="Octopy is your data butler!"/>
     <Button />
   </div>
@@ -13,11 +13,13 @@
 <script>
 import HelloWorld from './components/HelloWorld.vue'
 import Button from './components/Button.vue'
+import Nav from './components/Nav.vue'
 
 
 export default {
   name: 'App',
   components: {
+    Nav,
     Button,
     HelloWorld
   },
@@ -40,11 +42,6 @@ export default {
     --font-family: 'Work Sans', sans-serif;
 }
 
-#logo {
-  width: 10%;
-  height: auto;
-}
-
 body {
   background-color: var(--offdark);
  }
@@ -55,7 +52,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #16171B;
-  margin-top: 60px;
 }
 
 </style>
