@@ -43,7 +43,7 @@ export default {
 }
 
 body {
-  background-color: var(--offdark);
+  background-color: #16171B;
  }
 
 #app {
@@ -51,7 +51,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #16171B;
+  color: var(--white);
 }
 
 </style>
